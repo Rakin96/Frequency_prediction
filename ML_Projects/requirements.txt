@@ -1,0 +1,10 @@
+keras==2.11.0
+matplotlib==3.7.0
+pandas==1.5.3
+pygad==2.19.2
+pyswarm==0.6
+pyswarms==1.3.0
+scikit_learn==1.2.1
+seaborn==0.12.2
+tensorflow==2.11.0
+tqdm==4.64.1
