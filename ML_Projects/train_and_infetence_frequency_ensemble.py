@@ -57,6 +57,7 @@ model=tf.keras.Sequential([tf.keras.layers.BatchNormalization(),
                            tf.keras.layers.Dense(3,activation='linear')
                            ])
 model.compile(optimizer='RMSprop',loss='mse',metrics=['mse'])
+ #This is the new change
 history = model.fit(X_train,Y_train,epochs=300,batch_size=64,validation_split=0.3,callbacks=callbacks_list)
 
 plt.figure(figsize=(10,6))
